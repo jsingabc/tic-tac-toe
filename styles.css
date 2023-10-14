@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    font-size: 125%;
+}
+
+#humanHuman {
+    width: 175%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+#boardButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mainBoard {
+    height: 75%;
+    width: 175%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 25%;
+}
+
+.gameSquare {
+    background-color: lightblue;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
